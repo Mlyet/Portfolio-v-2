@@ -1,4 +1,5 @@
-import Header from './Components/Header/Header'
+import Header from './Components/Header/Header';
+import Camera from './Components/Camera/Camera';
 import './App.css'
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <>
       <div>
         <Header />
+        <Camera />
       </div>
     </>
   )
