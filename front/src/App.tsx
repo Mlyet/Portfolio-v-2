@@ -1,15 +1,12 @@
-import Header from './Components/Header/Header';
-import Camera from './Components/Camera/Camera';
+import Header from './Components/Header/Header'
 import './App.css'
 
 function App() {
 
+
   return (
     <>
-      <div>
-        <Header />
-        <Camera />
-      </div>
+      <Header />
     </>
   )
 }
