@@ -1,14 +1,12 @@
-body
-    background-color: #000000
 /**
     Title Animation
 
-p
+.neon
     font: 50 5vh "Vibur"
     color: #fee
     text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #fdfdfd, 0 0 0.5em #f6f6f6, 0 0 0.1em #ffffff, 0 10px 3px #000
 
-p span:nth-of-type(2)
+.neon span:nth-of-type(2)
     animation: blink linear infinite 3s
 
 @keyframes blink 
@@ -51,7 +49,7 @@ p span:nth-of-type(2)
     left: 50%
     transform: translate(-50%, -50%)
     cursor: pointer
-    bottom: 0
+    // bottom: 0
 
 
 .arrow span 
@@ -81,4 +79,3 @@ p span:nth-of-type(2)
     100% 
         opacity: 0
         transform: rotate(45deg) translate(20px, 20px)
-    
