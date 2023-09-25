@@ -2,13 +2,13 @@
 import './App.css'
 import { Fragment } from 'react';
 import Header from './Components/Header/Header';
-import Camera from './Components/Camera/Camera';
+import Parallax from './Components/Parallax/Parallax';
 
 function App() {
   return (
     <Fragment>
       <Header/>
-      <Camera />
+      <Parallax />
     </Fragment>
   )
 }
