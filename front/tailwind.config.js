@@ -6,17 +6,17 @@ export default {
   ],
   theme: {
     extend: {},
-    screens: {
-      'ph': '100px',
-      'tab': '430px',
-      // => @media (min-width: 640px) { ... }
+    // screens: {
+    //   'ph': '100px',
+    //   'tab': '430px',
+    //   // => @media (min-width: 640px) { ... }
 
-      'lap': '770px',
-      // => @media (min-width: 1024px) { ... }
+    //   'lap': '770px',
+    //   // => @media (min-width: 1024px) { ... }
 
-      'desk': '1280px',
-      // => @media (min-width: 1280px) { ... }
-    }
+    //   'desk': '1280px',
+    //   // => @media (min-width: 1280px) { ... }
+    // }
   },
   plugins: [],
 }
