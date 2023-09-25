@@ -1,7 +1,7 @@
 import { Fragment } from "react"
 import camera from "../../assets/IMG_0270.png"
 
-const Camera = () => {
+const Parallax = () => {
     return (
         <Fragment>
             <div className="bg-gray-300">
@@ -10,4 +10,4 @@ const Camera = () => {
         </Fragment>
     )
 }
-export default Camera;
+export default Parallax;
