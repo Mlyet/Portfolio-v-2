@@ -10,11 +10,11 @@ const Header = () => {
                     <img className="h-8 w-auto" src={logo} alt="My icon" />
                 </div>
                 <div className="hidden lg:flex lg:gap-x-12">
-                    <button type="button" className="flex items-center rounded-lg px-3 gap-x-1 text-sm font-semibold leading-6 text-white hover:bg-gray-50 hover:text-black" aria-expanded="false">
+                    <button type="button" className="flex items-center rounded-lg px-3 py-2 text-md font-semibold leading-6 text-white hover:bg-gray-50 hover:text-black" aria-expanded="false">
                     A Propos
                     </button>
-                <a href="#" className="text-sm rounded-lg px-3 font-semibold leading-6 text-white hover:bg-gray-50 hover:text-black">Mon parcours</a>
-                <a href="#" className="text-sm rounded-lg px-3 font-semibold leading-6 text-white hover:bg-gray-50 hover:text-black">Mes projets</a>
+                <a href="#" className="text-md rounded-lg px-3 py-2 font-semibold leading-6 text-white hover:bg-gray-50 hover:text-black">Mon parcours</a>
+                <a href="#" className="text-md rounded-lg px-3 py-2 font-semibold leading-6 text-white hover:bg-gray-50 hover:text-black">Mes projets</a>
                 </div>
             </nav>
             {/* Mobile menu, show/hide based on menu open state. */}
