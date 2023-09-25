@@ -4,7 +4,7 @@ import './Me.css';
 const Me = () => {
     return (
         <>
-            <div className="bg-white">
+            <div className="">
                 {/* <img src={gradient} alt="" className='lap:mt-[60vw] w-[300vw] h-[20vw] ph:mt-[90vw]'/> */}
                 <h1 className="text-center">Tho<span>m</span>as MEY<span>E</span>T</h1>
                 <div className='lap:flex'>
