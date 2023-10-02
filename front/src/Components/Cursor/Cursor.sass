@@ -1,0 +1,21 @@
+body
+    cursor: none
+
+.cursor-dot, .cursor-dot-outline 
+    pointer-events: none
+    position: fixed
+    top: 0
+    left: 0
+    z-index: 1
+    transform: translate(-50%, -50%)
+    border-radius: 50%
+
+.cursor-dot
+    width: 8px
+    height: 8px
+    background-color: #000000
+
+.cursor-dot-outline
+    width: 30px
+    height: 30px
+    border: 2px solid #4c4b4b
