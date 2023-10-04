@@ -1,1 +1,1 @@
-{"version":3,"sources":[],"names":[],"mappings":"","file":"Parallax.css"}
+{"version":3,"sources":["Parallax.sass","Parallax.css"],"names":[],"mappings":"AAAA;EACI,kBAAA;EACA,aAAA;EACA,uBAAA;EACA,mBAAA;EACA,aAAA;ACCJ;;ADCA;EACI,kBAAA;EACA,MAAA;EACA,OAAA;EACA,WAAA;EACA,oBAAA;ACEJ","file":"Parallax.css"}
