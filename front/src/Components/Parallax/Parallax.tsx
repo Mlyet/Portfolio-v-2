@@ -1,11 +1,14 @@
 import { Fragment } from "react"
-import camera from "../../assets/IMG_0270.png"
 
 const Parallax = () => {
     return (
         <Fragment>
-            <div className="bg-gray-300">
-                <img src={camera} alt="camera picture" />
+            <div className="">
+                <div className="tree">
+                    <div className="water"></div>
+                    <div className="bg-montain"></div>
+                    <div className=""></div>
+                </div>
             </div>
         </Fragment>
     )
