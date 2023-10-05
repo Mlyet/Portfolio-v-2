@@ -18,7 +18,7 @@ const Cursor = () => {
             outline?.animate({
                 left: `${postX}px`,
                 top: `${postY}px`,
-            }, {duration: 5000, fill: "forwards"});
+            }, {duration: 2000, fill: "forwards"});
     
         })
     }, [])
