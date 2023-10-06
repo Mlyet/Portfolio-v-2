@@ -14,20 +14,21 @@ const Parallax = () => {
         let ThreeMap = document.getElementById("ThreeMapId");
         let FourMap = document.getElementById("FourMapId");
         let FiveMap = document.getElementById("FiveMapId");
-    
+        
+        ThreeMap?.style && (ThreeMap.style.zIndex = 1);
         window.addEventListener('scroll', () => {
             let value = window.scrollY;
     
             OneMap?.style && (OneMap.style.top = value * -1 + 'px');
             TwoMap?.style && (TwoMap.style.top = value * -0.5 + 'px');
-            OneMap?.style && (OneMap.style.zIndex = value * 2 );
-            TwoMap?.style && (TwoMap.style.zIndex = value * 1);
+            OneMap?.style && (OneMap.style.zIndex = 2 );
+            TwoMap?.style && (TwoMap.style.zIndex = 1);
         })
     }, [])
     return (
         <Fragment>
             <section className="parallax">
-                <img src={background} alt="background" className="" />
+                <img src={background} alt="background" className="bg-[#11262d]" />
                 <img src={one} alt="Premier plan" id="OneMapId"/>
                 <img src={two} alt="Second plan" id="TwoMapId"/>
                 <img src={three} alt="Troisième plan" id="ThreeMapId"/>
