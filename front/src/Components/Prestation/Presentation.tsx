@@ -1,6 +1,7 @@
 import { Fragment } from "react";
 import "./Presentation.css";
-import me from"../../assets/portrait.jpg"
+import me from"../../assets/portrait.jpg";
+import linkedin from "../../assets/linkedin.png";
 
 const Presentation = () => {
     return (
@@ -22,22 +23,22 @@ const Presentation = () => {
                 <div className="divMe">
                     <h1 className="text-center mt-3">A propos de moi</h1>
                 </div>
-                <div className= "auto md:flex justify center gap-6 meImg content-between">
-                        <img src={me}  alt='Thomas' className="img md:h-[320px] md:w-[230px] xs:h-[120px] xs:w-[30px] z-10"/>
-                    <div className= "grid cols-2 gap-4 textMe">
-                        Je suis actuellement étudiant à la web@cademie en deuxième années <br />
-                        en préparation d'un titre professionnel / Bac+2:<br />
-                        Intégrateur / Développeur web.
-                        <div className="auto flex justify center gap-6">
-                            <a href='https://www.linkedin.com/in/thomas-meyet-92695b226/' className="grid grid cols-6 gap-4" target="_blank" rel="noreferrer" >
-                                {/* <img src={linkedin} alt='icone de linkedin' className='logoReseaux'/> */}
-                            </a>
-                        
-                            {/* <a href={cvfile} className="grid grid cols-6 gap-4" download target="_blank" rel="noreferrer"> */}
-                                {/* <img src={cv} alt='icone de linkedin' className='logoReseaux'/> */}
-                            {/* </a> */}
+                <div className= "auto md:flex justify gap-6 meImg ">
+                        <img src={me}  alt='Thomas' className="img md:h-[320px] md:w-[230px] sm:h-[120px] sm:w-[30px] z-10"/>
+                        <div className= "grid cols-2 gap-4 textMe">
+                            Je suis actuellement étudiant à la web@cademie en deuxième années <br />
+                            en préparation d'un titre professionnel / Bac+2:<br />
+                            Intégrateur / Développeur web.
+                            <div className="auto flex justify center gap-6">
+                                <a href='https://www.linkedin.com/in/thomas-meyet-92695b226/' className="grid grid cols-6 gap-4" target="_blank" rel="noreferrer" >
+                                    <img src={linkedin} alt='icone de linkedin' className='logoReseaux'/>
+                                </a>
+                            
+                                {/* <a href={cvfile} className="grid grid cols-6 gap-4" download target="_blank" rel="noreferrer"> */}
+                                    {/* <img src={cv} alt='icone de linkedin' className='logoReseaux'/> */}
+                                {/* </a> */}
+                            </div>
                         </div>
-                    </div>
                 </div>
             </section>
             
